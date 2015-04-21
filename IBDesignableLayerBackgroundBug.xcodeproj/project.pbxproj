@@ -13,6 +13,7 @@
 		C6A0CE111AE7100C008F67C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A0CE101AE7100C008F67C4 /* Images.xcassets */; };
 		C6A0CE141AE7100C008F67C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6A0CE121AE7100C008F67C4 /* LaunchScreen.xib */; };
 		C6A0CE201AE7100C008F67C4 /* IBDesignableLayerBackgroundBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0CE1F1AE7100C008F67C4 /* IBDesignableLayerBackgroundBugTests.swift */; };
+		C6A0CE2A1AE7102E008F67C4 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0CE291AE7102E008F67C4 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C6A0CE191AE7100C008F67C4 /* IBDesignableLayerBackgroundBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignableLayerBackgroundBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A0CE1E1AE7100C008F67C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6A0CE1F1AE7100C008F67C4 /* IBDesignableLayerBackgroundBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableLayerBackgroundBugTests.swift; sourceTree = "<group>"; };
+		C6A0CE291AE7102E008F67C4 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C6A0CE091AE7100C008F67C4 /* AppDelegate.swift */,
 				C6A0CE0B1AE7100C008F67C4 /* ViewController.swift */,
+				C6A0CE291AE7102E008F67C4 /* CustomView.swift */,
 				C6A0CE0D1AE7100C008F67C4 /* Main.storyboard */,
 				C6A0CE101AE7100C008F67C4 /* Images.xcassets */,
 				C6A0CE121AE7100C008F67C4 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A0CE2A1AE7102E008F67C4 /* CustomView.swift in Sources */,
 				C6A0CE0C1AE7100C008F67C4 /* ViewController.swift in Sources */,
 				C6A0CE0A1AE7100C008F67C4 /* AppDelegate.swift in Sources */,
 			);
